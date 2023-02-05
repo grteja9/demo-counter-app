@@ -10,7 +10,7 @@ pipeline{
                 
                 script{
                     
-                    git branch: 'main', url: 'git@github.com:grteja9/demo-counter-app.git'
+                    git branch: 'main', url: 'https://github.com/grteja9/demo-counter-app.git'
                 }
             }
         }
